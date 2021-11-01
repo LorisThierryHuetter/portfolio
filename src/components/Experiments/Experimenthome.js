@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../App.css';
-import Dreieckidentifizierung from "./Trianglecalculations/Dreieckidentifizierung";
+import Triangles from "./Trianglecalculations/Triangles";
 
  const Experimenthome = () => {
     return (
         <div className="App-header">
             <p>Experimental Components and React Projects will be added here...</p>
-            <Dreieckidentifizierung />
+            <Triangles />
         </div>
     )
 }

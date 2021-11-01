@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./component.css"
+import bbw from "./bbw.svg";
 
 function Dreieckidentifizierung() {
 
@@ -87,7 +88,8 @@ function Dreieckidentifizierung() {
 
   return (
     <div id="full">
-      <h2 id="title">Dreieckidentifizierung</h2>
+      <h2 id="title">Triangles</h2>
+      <img src={bbw} />
       <div id="input">
         <p id="#sideA">Side A<input type="number" onChange={ (e) => { sideA = parseFloat(e.target.value) } } /></p>
         <p id="#sideB">Side B<input type="number" onChange={ (e) => { sideB = parseFloat(e.target.value) } } /></p>
