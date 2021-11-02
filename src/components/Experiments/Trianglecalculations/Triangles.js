@@ -60,7 +60,7 @@ function Dreieckidentifizierung() {
     
 
 
-  function angleCalc(){
+  function angleCalc(){ 
     if(angles===3){
       angleC = 180-(angleB + angleA)
     }
